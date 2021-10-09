@@ -3,7 +3,7 @@ import ProductItem from '../ProductItem';
 // remove useStoreContext
 // import { useStoreContext } from '../../utils/GlobalState';
 // import useDispatch, useSelector
-import { usedispatch, useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { UPDATE_PRODUCTS } from '../../utils/actions';
 import { useQuery } from '@apollo/client';
 import { QUERY_PRODUCTS } from '../../utils/queries';
